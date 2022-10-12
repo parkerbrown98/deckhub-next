@@ -4,6 +4,7 @@ import BaseLayout from "../../../layouts/BaseLayout";
 import client from "../../../sanity-client";
 import { PortableText } from '@portabletext/react';
 import SanityImage from "../../../components/SanityImage";
+import QuickNav from "../../../components/QuickNav";
 
 const components = {
     types: {
@@ -19,6 +20,7 @@ const Post = ({ post, categories }) => {
     return (
         <BaseLayout categories={categories}>
             <HeroPost post={post} noHref />
+            <QuickNav />
             <Container>
                 <div className="prose max-w-none mt-8">
                     <PortableText value={post.content} components={components} />
