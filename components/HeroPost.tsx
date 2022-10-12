@@ -11,7 +11,7 @@ const HeroPost = ({ post, noHref = false }: Props) => {
     if (!noHref)
         return (
             <LinkWrapper href={`/guides/${post.category.slug.current}/${post.slug.current}`} className="block relative w-full min-h-[400px] fade overflow-hidden shadow-md">
-                <Image src={post.cover.asset.url} layout="fill" alt={post.cover.alt} className="absolute top-0 left-0 w-full h-full object-cover -z-10" priority />
+                <Image src={post.cover.asset.url} layout="fill" alt={post.cover.alt} className="absolute top-0 left-0 w-full h-full object-cover -z-10" priority={true} />
                 <Container>
                     <div className="absolute left-0 bottom-0 p-4 lg:p-8 max-w-2xl">
                         <div className="inline-block text-xs lg:text-sm uppercase tracking-wider text-steam-200 bg-steam-400 px-4 py-1 shadow-md">{ post.category.title }</div>

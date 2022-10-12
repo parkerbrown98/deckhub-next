@@ -14,7 +14,7 @@ export default function Home({ posts, categories, featured }) {
             <HeroPost post={featured} />
             <Container>
                 <div className="space-y-8 lg:space-y-12">
-                    <div className="grid grid-cols-5 gap-2 mt-2 divide-x">
+                    <div className="flex gap-2 mt-2 divide-x overflow-x-scroll">
                         <QuickLink href="/guides" icon={<FaNewspaper />}>
                             <QuickLink.Title>Hardware</QuickLink.Title>
                             <QuickLink.Subtitle>All of our guides</QuickLink.Subtitle>
