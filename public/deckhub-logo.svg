@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="28.4" viewBox="0 0 480 71">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25px;
+        text-anchor: middle;
+        font-family: Poppins;
+      }
+
+      .cls-2 {
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image x="1" y="1" width="69" height="69" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAACbUlEQVRIia2Wz4uOURTHP++YaMbGMDO8Xj+TUpaMjQ0b/oLZzIIFpciSlRpJUVaK2JkFC0myoka2sqGEopSfeT0zKL8nZl6dt++j09N9nnvN+556uue5595z7vnxvefWSKOVwHlgCzALzGnXAvG3gMNuviMypQ+AVuS7kGIkxcPNwGPxz4FHQJ+MzwDbgRVApkjMdurhLufZvoD8rGTfgXpMWU+CwaWOnwrI87l+YLgbBpc7/lOFQaPBbhhcpbFV4mGz5HDzNpif+jPwPiB/6/hlMWW9jjdPhlRxdeXDxt2STwNfAjqeqjINPgelxyLxQd7n37/omNLbwO8Izn6WVOkZAb5q7zfgMrDQNkxGjLwuzO1xxk4VZC/lbZm+azXhp1+huaI8vVPOMoXiKDDuDFmY1wMX3dwYcB1YKyhZPhvAauCAUvQHKU25mo5XnHw0svee1lle2wltKcYx2l8ImeVmW8K+h1rfTIGFp0WBucX/o6DHYfFrZO1p4FwBu2bsLrA3sndGY63XnXAncEJF8kbjlK4zK5ojTsEOYB0wof8J4fCGcDggPDcEuw1a176X71QUw5wAX1Yg4wVZVqGrpSpu97DJCH7y9jMWCNfJBOD/Aq5aDfgGvEZXW13hGNY4qvEZsClgsE/5t5C+AG7K00yYbgoOoXs4SJd0SsvlksCCEefJsZiyFFjkl25eCEVquP/pbhh85fihgNwfIhq2FIOZ4wcC8sGStfM2+NHxoUeS7/LRkKY8EzfqeYjC+0TdJS/3EXn5Q8btfu2ILAr3Ex7C1tqilPrUt8Kw9rVVPc0M5Icxsvv0kBp2OQF/Adun5MauVyf8AAAAAElFTkSuQmCC"/>
+  <text id="DeckHub" class="cls-1" transform="translate(278.412 68.76) scale(3.649)"><tspan x="0">Deck<tspan class="cls-2">Hub</tspan></tspan></text>
+</svg>

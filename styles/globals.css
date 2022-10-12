@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,600;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .fade {
+        color: rgb(27, 40, 56);
+        /* background: linear-gradient(
+            to bottom left,
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 0.2) 50%,
+            rgba(27, 40, 56, 0.6)
+        ); */
+        background: linear-gradient(-140deg, rgba(102, 192, 244, 0.1), rgba(42, 71, 94, 0.8));
+    }
+}
+
+.flow-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    min-height: 100vh;
+}
+
+.container {
+    @apply px-2 lg:px-4;
+    margin: 0 auto;
+}
+
+.flow-container > header {
+    grid-area: header;
+}
+
+.flow-container > main {
+    grid-area: main;
+}
+
+.flow-container > footer {
+    grid-area: footer;
+}
